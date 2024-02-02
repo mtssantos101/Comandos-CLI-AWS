@@ -1,0 +1,2 @@
+//Verificar a integridade dos destinos registrados
+aws elbv2 describe-target-health --target-group-arn targetgroup-ar

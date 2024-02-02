@@ -1,5 +1,6 @@
--provisionar instancia ec2 pelo cli
+//provisionar instancia ec2 pelo cli
 
+INSTANCE=$(\
 aws ec2 run-instances \
 --image-id $AMI \
 --subnet-id $SUBNET \
@@ -11,3 +12,4 @@ aws ec2 run-instances \
 --output text \
 )
 echo $INSTANCE
+

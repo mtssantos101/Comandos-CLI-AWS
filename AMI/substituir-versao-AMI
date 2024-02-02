@@ -1,0 +1,2 @@
+//Substituição de versões da AMI
+aws ssm get-parameters-by-path --path "/aws/service/ami-amazon-linux-latest" --query "Parameters[?Name=='/aws/service/ami-amazon-linux-latest/amzn-ami-hvm-x86_64-gp2'].Value" --output text

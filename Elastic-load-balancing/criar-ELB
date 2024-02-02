@@ -1,0 +1,11 @@
+//Use o comando create-load-balancer para criar um load balancer. Você deve especificar duas sub-redes que não estejam na mesma Zona de disponibilidade.
+aws elbv2 create-load-balancer \
+ --name my-load-balancer \
+  --subnets subnet-12345678 subnet-23456789 \
+   --security-groups sg-12345678
+
+*Certifique-se de ter permissões suficientes para criar um grupo de destino e substitua os valores dos parâmetros pelos correspondentes na sua conta da AWS.
+
+
+
+

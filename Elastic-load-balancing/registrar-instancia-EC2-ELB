@@ -1,0 +1,2 @@
+//Use o comando register-targets para registrar suas instâncias com seu grupo de destino.
+aws elbv2 register-targets \ --target-group-arn targetgroup-arn \ --targets Id=i-12345678 Id=i-23456789

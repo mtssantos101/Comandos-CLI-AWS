@@ -1,0 +1,2 @@
+//Pode acionar a reciclagem de instâncias usando scripts externos:
+aws autoscaling set-instance-health

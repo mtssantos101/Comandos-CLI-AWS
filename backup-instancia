@@ -1,0 +1,3 @@
+//muda o diretório e cria uma cópia de segurança
+cd ~/sysops-activity-files/starters
+cp create-lamp-instance-v2.sh create-lamp-instance.backup

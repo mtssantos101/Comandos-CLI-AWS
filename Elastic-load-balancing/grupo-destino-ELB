@@ -1,0 +1,3 @@
+//Criar um grupo de destino para o balanceador de carga: resultado do comando
+Comando 
+aws elbv2 create-target-group \ --name my-targets \ --protocol HTTP \ --port 80 \ --vpc-id vpc-12345678

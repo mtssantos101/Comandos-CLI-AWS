@@ -1,0 +1,5 @@
+//Transição para um novo tamanho de instância
+aws ec2 modify-instance-attribute --instance-type m5.xlarge
+	1-interromper
+	2-modificar
+	3-iniciar a instancia 
