@@ -1,0 +1,7 @@
+aws lambda create-function \
+--function-name salesAnalysisReport \
+--runtime python3.9 \
+--zip-file fileb://salesAnalysisReport-v2.zip \
+--handler salesAnalysisReport.lambda_handler \
+--region <region> \
+--role <salesAnalysisReportRoleARN>
