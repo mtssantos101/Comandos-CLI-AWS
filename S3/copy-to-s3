@@ -1,0 +1,2 @@
+//copia um arquivo para o s3
+aws s3 cp file.txt s3://mybucket/myprefix/file.txt

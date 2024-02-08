@@ -1,0 +1,5 @@
+//Criar um objeto com uma classe de armazenamento específica
+Use o parâmetro —-storage-class com o comando copy para especificar a classe de armazenamento.
+
+
+aws s3 cp file.txt s3://mybucket/myprefix/file.txt --storage-class INTELLIGENT_TIERING

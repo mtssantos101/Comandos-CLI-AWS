@@ -1,0 +1,2 @@
+//exclui um objeto de um bucket
+aws s3 rm s3://mybucket/myprefix/file.txt

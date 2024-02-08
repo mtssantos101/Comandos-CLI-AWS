@@ -1,0 +1,9 @@
+create-multipart-upload
+put-object-acl
+put-bucket-policy 
+list-object-versions
+
+• create-multipart-upload — Inicia um multipart upload e retorna um ID de upload.
+• put-object-acl — Usa o sub-recurso acl para definir as permissões de ACL para um objeto que já existe em um bucket.
+• put-bucket-policy — Substitui uma política em um bucket. Se o bucket já tiver uma política, a política nessa solicitação substitui completamente a polític anterior.
+• list-object-versions — Retorna metadados sobre todas as versões de objetos que estão em um bucket

@@ -1,0 +1,2 @@
+ //Sincronize objetos em um bucket e prefixo especificados para o diretório local atual:
+ aws s3 sync s3://mybucket/myprefix/ 
