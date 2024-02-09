@@ -1,0 +1,12 @@
+opção --dry-run: 
+•Verifica as permissões necessárias sem fazer uma solicitação 
+•Fornece uma resposta de erro se não for autorizada
+
+aws ec2 run-instances --image-id ami-1a2b3c4d 
+--count 1 
+--instance-type c5.large 
+--key-name MyKeyPair 
+--security-groups MySecurityGroup 
+--dry-run
+
+Se as permissões não estiverem presentes, o comando falharia sem incluir a opção --dry-run , o que retornaria a resposta de erro UnauthorizedOperation.

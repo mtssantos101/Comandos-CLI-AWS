@@ -1,0 +1,8 @@
+//Exemplo de Interface de linhas de comando da AWS (AWS CLI):
+– Use o comando create-volume 
+– Use a opção —-availability-zone para especificar a Zona de disponibilidade
+
+aws ec2 create-volume \
+--size 80 \ 
+--availability-zone us-east-1a \ 
+--volume-type gp2

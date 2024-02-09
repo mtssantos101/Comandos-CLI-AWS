@@ -1,0 +1,6 @@
+//Comando da AWS CLI para descrever o volume que foi criado:
+$ aws ec2 describe-volumes \ 
+--volume-ids vol-049df61146c4d7901
+vol-1234567890abcdef0
+
+

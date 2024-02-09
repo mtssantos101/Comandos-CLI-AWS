@@ -1,0 +1,6 @@
+• aws ec2 run-instances: este comando inicia o número especificado de instâncias de uma AMI.
+• aws ec2 describe-instances: descreve todas as instâncias que existem na conta.
+• aws ec2 create-volume: cria um volume do EBS que pode ser anexado a uma instância na mesma zona de disponibilidade.
+• aws ec2 create-vpc: cria uma VPC com o bloco Classless Inter Domain Routing (CIDR) especificado.
+
+OBSERVAÇÃO: as ações do Amazon Virtual Private Cloud (Amazon VPC) e do Amazon Elastic Block Store (Amazon EBS) são realizadas usando o comando aws ec2.

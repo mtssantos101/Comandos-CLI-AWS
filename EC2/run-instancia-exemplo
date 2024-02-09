@@ -1,0 +1,15 @@
+aws ec2 run-instances 
+--image-id ami-0123456789012345 
+--instance-type t2.micro 
+--key-name mykeypair 
+--security-group-ids sg-0123456789012345 
+--subnet-id subnet-0123456789012345 
+--iam-instance-profile Name=EC2Admin 
+--user-data file://UserData.txt
+--tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=WebServer}]'
+
+ parâmetros de inicialização: 
+– ID da Imagem de máquina da Amazon (AMI)
+– Tipo de instância 
+– Sub-rede 
+– Par de chaves

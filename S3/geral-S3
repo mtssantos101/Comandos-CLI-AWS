@@ -1,0 +1,4 @@
+• aws s3 ls: lista de objetos do Amazon S3 e prefixos comuns sob um prefixo ou todos os buckets do S3. Opcionalmente, especifique um intervalo específico na conta e o comando ls listará o conteúdo do bucket especificado.
+• aws s3 cp: copia um arquivo para, de ou entre locais do Amazon S3. Use-o para copiar arquivos locais para o Amazon S3, copiar um arquivo do Amazon S3 para um laptop ou copiar arquivos do Amazon S3 para outros locais do Amazon S3.
+• aws s3 mv: move um arquivo local ou objeto do Amazon S3 para outro local (localmente ou no Amazon S3).
+• aws s3 rm: exclui um objeto do Amazon S3

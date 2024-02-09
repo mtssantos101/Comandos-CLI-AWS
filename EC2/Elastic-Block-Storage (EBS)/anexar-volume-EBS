@@ -1,0 +1,6 @@
+// Anexar volumes a pontos de montagem lógicos no sistema operacional
+•Exemplo da AWS CLI: 
+– Use o comando attach-volume. 
+– Use a opção —-device para especificar o ponto de montagem.
+
+aws ec2 attach-volume --volume-id vol-1234567890abcdef0 --instance-id i-01474ef662b89480 --device /dev/sdf

@@ -1,0 +1,10 @@
+// Todos os comandos na AWS CLI têm exemplos de sintaxe e comandos disponíveis. Você pode acessar esses exemplos com o comando help.
+$ aws ec2 help
+
+comandos disponíveis 
+ • attach-volume 
+ • copy-snapshot 
+ • create-image 
+ • delete-snapshot 
+ • start-instances 
+ • stop-instances

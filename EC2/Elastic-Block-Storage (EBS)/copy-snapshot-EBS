@@ -1,0 +1,5 @@
+//Copiando um snapshot e uma prova de cópia
+aws ec2 copy-snapshot –-region us-east-1 
+--source-region us-west-2 
+–-source-snapshot-id snap-1234567890abcdef0 
+--description "This is my copied snapshot"

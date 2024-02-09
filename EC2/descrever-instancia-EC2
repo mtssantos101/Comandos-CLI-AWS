@@ -1,0 +1,5 @@
+//descreve a instâncias e retorna o DNS público
+aws ec2 describe-instances 
+--instance-ids $INSTANCE 
+--query Reservations[].Instances[].PublicDnsName
+ --output text

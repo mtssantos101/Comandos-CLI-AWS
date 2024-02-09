@@ -1,0 +1,6 @@
+//Restaurando umsnapshot Comando da AWS CLI: copiar um snapshot
+• O snapshot é armazenado no Amazon S3, mas não está diretamente acessível. – Gerenciado pela AWS.
+•
+Encontre o ID do snapshot e restaure o snapshot para um novo volume usando o comando create-volume.
+• Os volumes que são restaurados a partir de snapshots têm uma penalidade de primeiro acesso. – Considere ler todos os blocos para evitar essa penalidade na produção.
+aws ec2 create-volume –-size 80 –-availability-zone us-east-1a --volume-type gp2 –-snapshot-id snap-1234567890abcdef0

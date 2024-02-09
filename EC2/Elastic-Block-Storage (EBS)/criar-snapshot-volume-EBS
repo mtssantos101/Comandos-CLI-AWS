@@ -1,0 +1,7 @@
+// Use o comando create-snapshot da AWS CLI. O comando retorna de forma assíncrona.
+•Considere interromper a instância ou desmontar o volume primeiro: 
+– Para fins de integridade (caso contrário, nenhuma gravação subsequente será capturada.)
+– Ao criar um snapshot para um volume do EBS que serve como dispositivo raiz, interrompa a instância antes de fazer o snapshot.
+– Fundamental para servidores de banco de dados e configurações de Array redundante de discos independentes (RAID)
+
+aws ec2 create-snapshot –-volume-id vol-1234567890abcdef0 --description "This is my root volume snapshot"
